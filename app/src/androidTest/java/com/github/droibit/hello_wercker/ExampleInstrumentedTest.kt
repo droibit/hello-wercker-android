@@ -1,4 +1,4 @@
-package com.github.droibit.hellowerker_android
+package com.github.droibit.hello_wercker
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.github.droibit.hellowerker_android", appContext.packageName)
+        assertEquals("com.github.droibit.hello_wercker", appContext.packageName)
     }
 }

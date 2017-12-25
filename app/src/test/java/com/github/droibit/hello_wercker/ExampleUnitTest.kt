@@ -1,4 +1,4 @@
-package com.github.droibit.hellowerker_android
+package com.github.droibit.hello_wercker
 
 import org.junit.Test
 
