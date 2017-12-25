@@ -1,0 +1,12 @@
+build:
+  # ref. http://devcenter.wercker.com/docs/containers/private-containers
+  box:
+    id: droibit/android-build-env
+    username: $USERNAME
+    password: $PASSWORD
+    tag: 1.1.0
+  steps:
+    - script:
+        name: Run assembleDebug
+        code: |
+          ./gradlew --project-cache-dir=$WERCKER_CACHE_DIR --info clean assembleDebug
