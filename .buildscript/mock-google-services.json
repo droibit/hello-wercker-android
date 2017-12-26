@@ -8,7 +8,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:676325191821:android:clyaga38616lin1q",
+        "mobilesdk_app_id": "1:967000225753:android:9f21b6d1c065183b",
         "android_client_info": {
           "package_name": "com.github.droibit.hello_wercker"
         }
