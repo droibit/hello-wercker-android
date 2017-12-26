@@ -7,6 +7,10 @@ build:
     tag: 1.1.0
   steps:
     - script:
+        name: Prepare build
+        code: |
+          .buildscript/prepare_build.sh
+    - script:
         name: Run assembleDebug
         code: |
           ./gradlew --project-cache-dir=$WERCKER_CACHE_DIR --info clean assembleDebug
